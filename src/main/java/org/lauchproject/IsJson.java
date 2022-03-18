@@ -1,3 +1,6 @@
+/**This class check if a String is a valid JSON or not.
+ * In specific the class check if it is a valid JSON ARRAY or OBJECT**/
+
 package org.lauchproject;
 
 import com.google.gson.Gson;
@@ -26,12 +29,6 @@ public final class IsJson {
             return false;
         }
     }
-
-    //The main was for test Purpose
-    /*public static void main(String[] args){
-        System.out.println(isJSONValid("[\"Ford\", \"BMW\", \"Fiat\"]"));
-    }*/
-
 
 
 }

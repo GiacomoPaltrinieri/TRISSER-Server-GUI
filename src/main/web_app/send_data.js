@@ -1,5 +1,6 @@
-
 /**Function for Sending data to MyServlet whitout Reloading page**/
+/**This function generate a post request and send the var data, witch contain all the rules**/
+
 function take_values(){
 
     var data="bot_istance="+encodeURIComponent(document.forms["myform"] ["bot_istance"].value)+
@@ -34,7 +35,6 @@ function take_values(){
 }
 
 /**Function to create Multiple input tags for the email input**/
-
 function create_input(){
     var cont=document.forms["myform"]["bot_num"].value;
     var container=document.getElementById("input_cont")

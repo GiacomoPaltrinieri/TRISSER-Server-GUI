@@ -1,5 +1,8 @@
-package org.lauchproject;
+/**My servlet used to pass front-end data to the back-end**/
+/**This class call a constructor from GameSetting and pass throw paramers the rules.
+   the rules are passe also throw getters**/
 
+package org.lauchproject;
 import org.json.simple.JSONObject;
 import java.io.*;
 import java.util.ArrayList;
