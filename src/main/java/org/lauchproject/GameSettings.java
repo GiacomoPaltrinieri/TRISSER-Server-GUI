@@ -253,7 +253,7 @@ public class GameSettings {
         System.out.println(topics.toString());
         ArrayList<String> pwds = setPassword(users);
         //new MQTTPubPrint(); // test send message
-        generateMailContent(users, topics, pwds, rules, Integer.parseInt(configData.getBot_number()));
+        generateMailContent(users, topics, pwds, rules, Integer.parseInt(My_servlet.getBot_istance()));
         // writes to file the game and time of the game
         new GamePreparation();
     }
