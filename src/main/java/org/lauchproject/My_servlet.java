@@ -66,9 +66,9 @@ public class My_servlet extends HttpServlet{
         }
 
         rules.put("time", temp_gioco_bot);
-        rules.put("bot_number", bot_num);
+        rules.put("bot_number", bot_istance);
         rules.put("connection_time", temp_connessione);
-        rules.put("date", data_start_game + " " + temp_start_game + ":00");
+        rules.put("date", data_start_game + " " + temp_start_game);
 
         PrintWriter out = response.getWriter();
         out.write("Server Started\nWork in Progress!!!");

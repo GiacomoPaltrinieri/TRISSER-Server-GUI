@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--MY MAIN PAGE FOR USER INPUT-->
         <title>Trisser</title>
         <link rel="stylesheet" type="text/css" href="home_page_style.css">
     </head>
